@@ -10,10 +10,15 @@
 
 @interface XYZPerson : NSObject
 
+// Step 2
 @property NSString *firstName;
 @property NSString *lastName;
 @property NSDate *birthDate;
 
+// Step 3
 - (void)sayHello;
+
+// Step 4
++ (id)person;
 
 @end
