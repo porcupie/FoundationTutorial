@@ -10,4 +10,7 @@
 
 @implementation XYZPerson
 
+- (void)sayHello {
+    NSLog(@"Yo, Hello!");
+}
 @end
