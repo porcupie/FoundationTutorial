@@ -10,4 +10,8 @@
 
 @interface XYZPerson : NSObject
 
+@property NSString *firstName;
+@property NSString *lastName;
+@property NSDate *birthDate;
+
 @end
