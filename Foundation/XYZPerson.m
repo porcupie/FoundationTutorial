@@ -10,7 +10,33 @@
 
 @implementation XYZPerson
 
-- (void)sayHello {
-    NSLog(@"Yo, Hello!");
+// Defining Classes: Step 3
+//- (void)sayHello {
+//    NSLog(@"Yo, Hello!");
+//}
+
+
+// Working with objects: Step 2
+- (void)saySomething:(NSString *)greeting {
+    NSLog(@"%@", greeting);
 }
+
+- (void)sayHello {
+    [self saySomething:@"Yo, Hello!"];
+}
+
+- (void)sayGoodbye {
+    [self saySomething:@"Yo, Goodbye!"];
+}
+
+- (void)sayNo {
+    [self saySomething:@"Hell NO!"];
+}
+
+- (void)sayWhyme {
+    [self saySomething:@"Why Me?!"];
+}
+
+
+
 @end

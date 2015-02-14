@@ -17,6 +17,9 @@ int main(int argc, const char * argv[]) {
         XYZPerson *my_person = [XYZPerson new];
         
         [my_person sayHello];
+        [my_person sayWhyme];
+        [my_person sayNo];
+        [my_person sayGoodbye];
         
         // insert code here...
         //NSLog(@"Hello, World!");
