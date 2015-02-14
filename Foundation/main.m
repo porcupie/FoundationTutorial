@@ -15,7 +15,10 @@ int main(int argc, const char * argv[]) {
         
         // working with objects: step 1
         //XYZPerson *person = [[XyzPerson alloc] init]
-        XYZPerson *my_person = [XYZPerson new];
+        //XYZPerson *my_person = [XYZPerson new];
+        // working with objects: step 4
+        XYZPerson *my_person = [XYZPerson person];
+
         
         [my_person sayHello];
         [my_person sayWhyme];
@@ -23,7 +26,9 @@ int main(int argc, const char * argv[]) {
         [my_person sayGoodbye];
    
         // working with objects: step 3
-        XYZPerson *shout_person = [XYZShoutingPerson new];
+        //XYZPerson *shout_person = [XYZShoutingPerson new];
+        // ... step 4
+        XYZPerson *shout_person = [XYZShoutingPerson person];
         [shout_person sayHello];
         [shout_person sayWhyme];
         [shout_person sayNo];

@@ -37,6 +37,10 @@
     [self saySomething:@"Why Me?!"];
 }
 
-
+// Working with objects Step 4
+// factory method to make a person
++ (id)person {
+    return [[self alloc] init];
+}
 
 @end
