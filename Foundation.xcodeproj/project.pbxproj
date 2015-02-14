@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D6AF7B71A8E8E5100048ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF7B61A8E8E5100048ACC /* main.m */; };
 		2D6AF7C21A8E8F0B00048ACC /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF7C11A8E8F0B00048ACC /* XYZPerson.m */; };
+		2D6AF7C51A8F2E2100048ACC /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF7C41A8F2E2100048ACC /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		2D6AF7B61A8E8E5100048ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D6AF7C01A8E8F0B00048ACC /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		2D6AF7C11A8E8F0B00048ACC /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		2D6AF7C31A8F2E2100048ACC /* XYZShoutingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		2D6AF7C41A8F2E2100048ACC /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				2D6AF7B61A8E8E5100048ACC /* main.m */,
+				2D6AF7C31A8F2E2100048ACC /* XYZShoutingPerson.h */,
+				2D6AF7C41A8F2E2100048ACC /* XYZShoutingPerson.m */,
 				2D6AF7C01A8E8F0B00048ACC /* XYZPerson.h */,
 				2D6AF7C11A8E8F0B00048ACC /* XYZPerson.m */,
 			);
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D6AF7C21A8E8F0B00048ACC /* XYZPerson.m in Sources */,
+				2D6AF7C51A8F2E2100048ACC /* XYZShoutingPerson.m in Sources */,
 				2D6AF7B71A8E8E5100048ACC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

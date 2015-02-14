@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "XYZPerson.h"
+#import "XYZShoutingPerson.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -20,7 +21,14 @@ int main(int argc, const char * argv[]) {
         [my_person sayWhyme];
         [my_person sayNo];
         [my_person sayGoodbye];
-        
+   
+        // working with objects: step 3
+        XYZPerson *shout_person = [XYZShoutingPerson new];
+        [shout_person sayHello];
+        [shout_person sayWhyme];
+        [shout_person sayNo];
+        [shout_person sayGoodbye];
+
         // insert code here...
         //NSLog(@"Hello, World!");
     }
