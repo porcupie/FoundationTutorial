@@ -22,7 +22,10 @@
 }
 
 - (void)sayHello {
-    [self saySomething:@"Yo, Hello!"];
+    //[self saySomething:@"Yo, Hello!"];
+    // Encapsulating Data: Step 1
+    [self saySomething:[NSString stringWithFormat:@"Yo, Hello %@", self.fullName]];
+    
 }
 
 - (void)sayGoodbye {
@@ -36,6 +39,12 @@
 - (void)sayWhyme {
     [self saySomething:@"Why Me?!"];
 }
+
+// Encapsulating Data: Step 1 (2?)
+- (NSString *)fullName {
+    return [NSString stringWithFormat:@"%@ %@", self.firstName, self.lastName];
+}
+
 
 // Working with objects Step 4
 // factory method to make a person

@@ -27,15 +27,21 @@ int main(int argc, const char * argv[]) {
    
         // working with objects: step 3
         //XYZPerson *shout_person = [XYZShoutingPerson new];
-        // ... step 4
+        // working with objects: step 4
         XYZPerson *shout_person = [XYZShoutingPerson person];
         [shout_person sayHello];
         [shout_person sayWhyme];
         [shout_person sayNo];
         [shout_person sayGoodbye];
 
-        // insert code here...
-        //NSLog(@"Hello, World!");
+        // working with objects: step 5
+        XYZPerson *step5;
+        if (step5) {
+            [step5 sayHello];
+        } else {
+            NSLog(@"step5 object was nil");
+        }
+
     }
     return 0;
 }

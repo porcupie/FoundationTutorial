@@ -15,6 +15,9 @@
 @property NSString *lastName;
 @property NSDate *birthDate;
 
+// Encapsulating Data: Step 1
+@property (readonly) NSString *fullName;
+
 // Defining Classes: Step 3
 - (void)sayHello;
 
