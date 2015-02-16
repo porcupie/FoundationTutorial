@@ -15,8 +15,8 @@
 @interface XYZPerson ()
 
 // ... (p)redeclare these as readwrite here (readonly) in public class
-@property (readwrite) float height;
-@property (readwrite) float weight;
+@property (readwrite) NSNumber *height;
+@property (readwrite) NSNumber *weight;
 
 @end
 
@@ -87,20 +87,20 @@
 
 // Customizing Existing Classes: Step 3 continued
 // height in inches 
-- (void)measureHeight:(float)height {
+- (void)measureHeight:(NSNumber *)height {
     if (height) {
         self.height = height;
     } else {
-        self.height = 72.0;
+        self.height = @72.0;
     }
 }
 
 // weight in pounds
-- (void)measureWeight:(float)weight {
+- (void)measureWeight:(NSNumber *)weight {
     if (weight) {
         self.weight = weight;
     } else {
-        self.weight = 250.0;
+        self.weight = @250.0;
     }    
 }
 

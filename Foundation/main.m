@@ -66,7 +66,19 @@ int main(int argc, const char * argv[]) {
         // Customizing Existing Classes: Step 2
        // NSPoint my_point = NSMakePoint(30, 30);
        // [@"Hello there OSX!" xyz_drawAtPoint:my_point];
-        
+     
+        // customizing existing classes: step 3
+        // ... try to set the height or weight?
+        // this gets compiler error: Assignment to readonly property
+        //my_person.height = 74.0;
+        NSLog(@"Before height: %@", my_person.height);
+        [my_person measureHeight:@74.0];
+        NSLog(@"After height: %@", my_person.height);
+
+        NSLog(@"Before weight: %@", my_person.weight);
+        [my_person measureWeight:nil];
+        NSLog(@"After weight: %@", my_person.weight);
+
     }
     return 0;
 }

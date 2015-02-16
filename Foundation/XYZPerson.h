@@ -38,11 +38,11 @@
 
 
 // Customizing Existing Classes: Step 3
-@property (readonly) float height;
-@property (readonly) float weight;
+@property (readonly) NSNumber *height;
+@property (readonly) NSNumber *weight;
 
 // ... these methods will be private in a Class Extension
-- (void)measureWeight:(float)weight;
-- (void)measureHeight:(float)height;
+- (void)measureWeight:(NSNumber *)weight;
+- (void)measureHeight:(NSNumber *)height;
 
 @end
