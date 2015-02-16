@@ -8,6 +8,18 @@
 
 #import "XYZPerson.h"
 
+
+// Customizing Existing Classes: Step 3
+// add a class extension to implement private methods
+
+@interface XYZPerson ()
+
+// ... (p)redeclare these as readwrite here (readonly) in public class
+@property (readwrite) float height;
+@property (readwrite) float weight;
+
+@end
+
 @implementation XYZPerson
 
 // Defining Classes: Step 3
@@ -73,4 +85,25 @@
                                  birthDate:(NSDate *)birthDate];
 }
 
+// Customizing Existing Classes: Step 3 continued
+// height in inches 
+- (void)measureHeight:(float)height {
+    if (height) {
+        self.height = height;
+    } else {
+        self.height = 72.0;
+    }
+}
+
+// weight in pounds
+- (void)measureWeight:(float)weight {
+    if (weight) {
+        self.weight = weight;
+    } else {
+        self.weight = 250.0;
+    }    
+}
+
+
 @end
+

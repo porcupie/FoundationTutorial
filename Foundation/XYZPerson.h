@@ -36,4 +36,13 @@
 // ... class factory method
 + (id)personWithFirstName:(NSString *)firstName lastName:(NSString *) lastName birthDate:(NSDate *)birthDate;
 
+
+// Customizing Existing Classes: Step 3
+@property (readonly) float height;
+@property (readonly) float weight;
+
+// ... these methods will be private in a Class Extension
+- (void)measureWeight:(float)weight;
+- (void)measureHeight:(float)height;
+
 @end
