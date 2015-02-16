@@ -18,31 +18,40 @@ int main(int argc, const char * argv[]) {
         //XYZPerson *my_person = [XYZPerson new];
         // working with objects: step 4
         //XYZPerson *my_person = [XYZPerson person];
-        // Encapsulating data: step 2
-        XYZPerson *my_person = [XYZPerson personWithFirstName:@"Joe" lastName:@"Dow" birthDate:nil];
         
-        
-        [my_person sayHello];
-        [my_person sayWhyme];
-        [my_person sayNo];
-        [my_person sayGoodbye];
+        //[my_person sayHello];
+        //[my_person sayWhyme];
+        //[my_person sayNo];
+        //[my_person sayGoodbye];
    
         // working with objects: step 3
         //XYZPerson *shout_person = [XYZShoutingPerson new];
         // working with objects: step 4
-        XYZPerson *shout_person = [XYZShoutingPerson person];
-        [shout_person sayHello];
-        [shout_person sayWhyme];
-        [shout_person sayNo];
-        [shout_person sayGoodbye];
+        //XYZPerson *shout_person = [XYZShoutingPerson person];
+        //[shout_person sayHello];
+        //[shout_person sayWhyme];
+        //[shout_person sayNo];
+        //[shout_person sayGoodbye];
 
         // working with objects: step 5
-        XYZPerson *step5;
-        if (step5) {
-            [step5 sayHello];
-        } else {
-            NSLog(@"step5 object was nil");
-        }
+        //XYZPerson *step5;
+        //if (step5) {
+        //    [step5 sayHello];
+        //} else {
+        //    NSLog(@"step5 object was nil");
+        //}
+
+        
+        // Encapsulating data: step 3
+
+        // set a mutable string as name and re-hello
+        NSMutableString *newName = [NSMutableString stringWithString:@"Jon" ];
+        XYZPerson *my_person = [XYZPerson personWithFirstName:newName lastName:@"Dow" birthDate:nil];        
+        [my_person sayHello];
+        // change it
+        [newName appendString:@"ny"];
+        // new hello has the change (unless (copy) has been applied)
+        [my_person sayHello];
 
     }
     return 0;
