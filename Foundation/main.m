@@ -17,8 +17,10 @@ int main(int argc, const char * argv[]) {
         //XYZPerson *person = [[XyzPerson alloc] init]
         //XYZPerson *my_person = [XYZPerson new];
         // working with objects: step 4
-        XYZPerson *my_person = [XYZPerson person];
-
+        //XYZPerson *my_person = [XYZPerson person];
+        // Encapsulating data: step 2
+        XYZPerson *my_person = [XYZPerson personWithFirstName:@"Joe" lastName:@"Dow" birthDate:nil];
+        
         
         [my_person sayHello];
         [my_person sayWhyme];

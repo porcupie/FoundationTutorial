@@ -40,16 +40,37 @@
     [self saySomething:@"Why Me?!"];
 }
 
-// Encapsulating Data: Step 1 (2?)
-- (NSString *)fullName {
-    return [NSString stringWithFormat:@"%@ %@", self.firstName, self.lastName];
-}
-
 
 // Working with objects Step 4
 // factory method to make a person
 + (id)person {
     return [[self alloc] init];
+}
+
+
+// Encapsulating Data: Step 1
+- (NSString *)fullName {
+    return [NSString stringWithFormat:@"%@ %@", self.firstName, self.lastName];
+}
+
+// Encapsulating Data: Step 2
+- (id)initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName birthDate:(NSDate *)birthDate {
+    self.firstName = firstName;
+    self.lastName  = lastName;
+    self.birthDate = birthDate;
+    return self;
+}
+
+// ... You might also implement a standard init method to provide suitable defaults:
+- (id)init {
+    return [self initWithFirstName:@"Testy" lastName:@"Testerson" birthDate:nil];
+}
+
+// ... and a class factory method
++ (id)personWithFirstName:(NSString *)firstName lastName:(NSString *) lastName birthDate:(NSDate *)birthDate {
+    return [[self alloc] initWithFirstName:(NSString *)firstName
+                                  lastName:(NSString *)lastName
+                                 birthDate:(NSDate *)birthDate];
 }
 
 @end

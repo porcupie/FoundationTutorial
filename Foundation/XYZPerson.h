@@ -15,9 +15,6 @@
 @property NSString *lastName;
 @property NSDate *birthDate;
 
-// Encapsulating Data: Step 1
-@property (readonly) NSString *fullName;
-
 // Defining Classes: Step 3
 - (void)sayHello;
 
@@ -29,5 +26,14 @@
 - (void)sayGoodbye;
 - (void)sayNo;
 - (void)sayWhyme;
+
+// Encapsulating Data: Step 1
+@property (readonly) NSString *fullName;
+
+// Encapsulating Data: Step 2
+- (id)initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName birthDate:(NSDate *)birthDate;
+
+// ... class factory method
++ (id)personWithFirstName:(NSString *)firstName lastName:(NSString *) lastName birthDate:(NSDate *)birthDate;
 
 @end
