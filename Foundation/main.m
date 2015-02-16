@@ -13,6 +13,9 @@
 // Customizing Existing Classes: Step 1
 #import "XYZPerson+XYZPersonNameAdditions.h"
 
+// Customizing Existing Classes: Step 2
+#import "NSString+XYZUpperDrawingAdditions.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -58,7 +61,11 @@ int main(int argc, const char * argv[]) {
         [my_person sayHello];
 
         // Customizing Existing Classes: Step 1
-        NSLog(my_person.lastNameFirstNameString);
+        NSLog(@"%@", my_person.lastNameFirstNameString);
+        
+        // Customizing Existing Classes: Step 2
+        NSPoint my_point = NSMakePoint(30, 30);
+        [@"Hello there OSX!" xyz_drawAtPoint:my_point];
     }
     return 0;
 }

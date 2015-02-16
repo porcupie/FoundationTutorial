@@ -11,6 +11,7 @@
 		2D6AF7C21A8E8F0B00048ACC /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF7C11A8E8F0B00048ACC /* XYZPerson.m */; };
 		2D6AF7C51A8F2E2100048ACC /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF7C41A8F2E2100048ACC /* XYZShoutingPerson.m */; };
 		2D6AF7C81A91CCD400048ACC /* XYZPerson+XYZPersonNameAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF7C71A91CCD400048ACC /* XYZPerson+XYZPersonNameAdditions.m */; };
+		2D6AF7CB1A91D00600048ACC /* NSString+XYZUpperDrawingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AF7CA1A91D00600048ACC /* NSString+XYZUpperDrawingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		2D6AF7C41A8F2E2100048ACC /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 		2D6AF7C61A91CCD400048ACC /* XYZPerson+XYZPersonNameAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XYZPerson+XYZPersonNameAdditions.h"; sourceTree = "<group>"; };
 		2D6AF7C71A91CCD400048ACC /* XYZPerson+XYZPersonNameAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XYZPerson+XYZPersonNameAdditions.m"; sourceTree = "<group>"; };
+		2D6AF7C91A91D00600048ACC /* NSString+XYZUpperDrawingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XYZUpperDrawingAdditions.h"; sourceTree = "<group>"; };
+		2D6AF7CA1A91D00600048ACC /* NSString+XYZUpperDrawingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XYZUpperDrawingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				2D6AF7B61A8E8E5100048ACC /* main.m */,
+				2D6AF7C91A91D00600048ACC /* NSString+XYZUpperDrawingAdditions.h */,
+				2D6AF7CA1A91D00600048ACC /* NSString+XYZUpperDrawingAdditions.m */,
 				2D6AF7C31A8F2E2100048ACC /* XYZShoutingPerson.h */,
 				2D6AF7C41A8F2E2100048ACC /* XYZShoutingPerson.m */,
 				2D6AF7C61A91CCD400048ACC /* XYZPerson+XYZPersonNameAdditions.h */,
@@ -135,6 +140,7 @@
 			files = (
 				2D6AF7C81A91CCD400048ACC /* XYZPerson+XYZPersonNameAdditions.m in Sources */,
 				2D6AF7C21A8E8F0B00048ACC /* XYZPerson.m in Sources */,
+				2D6AF7CB1A91D00600048ACC /* NSString+XYZUpperDrawingAdditions.m in Sources */,
 				2D6AF7C51A8F2E2100048ACC /* XYZShoutingPerson.m in Sources */,
 				2D6AF7B71A8E8E5100048ACC /* main.m in Sources */,
 			);
