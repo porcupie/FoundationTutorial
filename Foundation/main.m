@@ -10,6 +10,10 @@
 #import "XYZPerson.h"
 #import "XYZShoutingPerson.h"
 
+// Customizing Existing Classes: Step 1
+#import "XYZPerson+XYZPersonNameAdditions.h"
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -53,6 +57,8 @@ int main(int argc, const char * argv[]) {
         // new hello has the change (unless (copy) has been applied)
         [my_person sayHello];
 
+        // Customizing Existing Classes: Step 1
+        NSLog(my_person.lastNameFirstNameString);
     }
     return 0;
 }
