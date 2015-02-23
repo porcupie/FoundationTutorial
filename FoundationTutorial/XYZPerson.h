@@ -31,7 +31,7 @@
 @property (readonly) NSString *fullName;
 
 // Encapsulating Data: Step 2
-- (id)initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName birthDate:(NSDate *)birthDate;
+- (id)initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName birthDate:(NSDate *)birthDate NS_DESIGNATED_INITIALIZER;
 
 // ... class factory method
 + (id)personWithFirstName:(NSString *)firstName lastName:(NSString *) lastName birthDate:(NSDate *)birthDate;
