@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D6AF7B21A8E8E5100048ACC"
-               BuildableName = "Foundation"
-               BlueprintName = "Foundation"
-               ReferencedContainer = "container:Foundation.xcodeproj">
+               BuildableName = "FoundationTutorial"
+               BlueprintName = "FoundationTutorial"
+               ReferencedContainer = "container:FoundationTutorial.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D6AF7B21A8E8E5100048ACC"
-            BuildableName = "Foundation"
-            BlueprintName = "Foundation"
-            ReferencedContainer = "container:Foundation.xcodeproj">
+            BuildableName = "FoundationTutorial"
+            BlueprintName = "FoundationTutorial"
+            ReferencedContainer = "container:FoundationTutorial.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D6AF7B21A8E8E5100048ACC"
-            BuildableName = "Foundation"
-            BlueprintName = "Foundation"
-            ReferencedContainer = "container:Foundation.xcodeproj">
+            BuildableName = "FoundationTutorial"
+            BlueprintName = "FoundationTutorial"
+            ReferencedContainer = "container:FoundationTutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D6AF7B21A8E8E5100048ACC"
-            BuildableName = "Foundation"
-            BlueprintName = "Foundation"
-            ReferencedContainer = "container:Foundation.xcodeproj">
+            BuildableName = "FoundationTutorial"
+            BlueprintName = "FoundationTutorial"
+            ReferencedContainer = "container:FoundationTutorial.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -27,7 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D6AF7B31A8E8E5100048ACC /* Foundation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Foundation; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6AF7B31A8E8E5100048ACC /* FoundationTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FoundationTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6AF7B61A8E8E5100048ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D6AF7C01A8E8F0B00048ACC /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		2D6AF7C11A8E8F0B00048ACC /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		2D6AF7AA1A8E8E5100048ACC = {
 			isa = PBXGroup;
 			children = (
-				2D6AF7B51A8E8E5100048ACC /* Foundation */,
+				2D6AF7B51A8E8E5100048ACC /* FoundationTutorial */,
 				2D6AF7B41A8E8E5100048ACC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,12 +61,12 @@
 		2D6AF7B41A8E8E5100048ACC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D6AF7B31A8E8E5100048ACC /* Foundation */,
+				2D6AF7B31A8E8E5100048ACC /* FoundationTutorial */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D6AF7B51A8E8E5100048ACC /* Foundation */ = {
+		2D6AF7B51A8E8E5100048ACC /* FoundationTutorial */ = {
 			isa = PBXGroup;
 			children = (
 				2D6AF7B61A8E8E5100048ACC /* main.m */,
@@ -79,15 +79,16 @@
 				2D6AF7C01A8E8F0B00048ACC /* XYZPerson.h */,
 				2D6AF7C11A8E8F0B00048ACC /* XYZPerson.m */,
 			);
+			name = FoundationTutorial;
 			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D6AF7B21A8E8E5100048ACC /* Foundation */ = {
+		2D6AF7B21A8E8E5100048ACC /* FoundationTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D6AF7BA1A8E8E5100048ACC /* Build configuration list for PBXNativeTarget "Foundation" */;
+			buildConfigurationList = 2D6AF7BA1A8E8E5100048ACC /* Build configuration list for PBXNativeTarget "FoundationTutorial" */;
 			buildPhases = (
 				2D6AF7AF1A8E8E5100048ACC /* Sources */,
 				2D6AF7B01A8E8E5100048ACC /* Frameworks */,
@@ -97,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = Foundation;
+			name = FoundationTutorial;
 			productName = Foundation;
-			productReference = 2D6AF7B31A8E8E5100048ACC /* Foundation */;
+			productReference = 2D6AF7B31A8E8E5100048ACC /* FoundationTutorial */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D6AF7AE1A8E8E5100048ACC /* Build configuration list for PBXProject "Foundation" */;
+			buildConfigurationList = 2D6AF7AE1A8E8E5100048ACC /* Build configuration list for PBXProject "FoundationTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D6AF7B21A8E8E5100048ACC /* Foundation */,
+				2D6AF7B21A8E8E5100048ACC /* FoundationTutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -226,21 +227,21 @@
 		2D6AF7BB1A8E8E5100048ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FoundationTutorial;
 			};
 			name = Debug;
 		};
 		2D6AF7BC1A8E8E5100048ACC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FoundationTutorial;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D6AF7AE1A8E8E5100048ACC /* Build configuration list for PBXProject "Foundation" */ = {
+		2D6AF7AE1A8E8E5100048ACC /* Build configuration list for PBXProject "FoundationTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D6AF7B81A8E8E5100048ACC /* Debug */,
@@ -249,13 +250,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D6AF7BA1A8E8E5100048ACC /* Build configuration list for PBXNativeTarget "Foundation" */ = {
+		2D6AF7BA1A8E8E5100048ACC /* Build configuration list for PBXNativeTarget "FoundationTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D6AF7BB1A8E8E5100048ACC /* Debug */,
 				2D6AF7BC1A8E8E5100048ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
